@@ -26,7 +26,7 @@ module.exports = function pingRemover(dispatch){
 	});
 	
 	dispatch.hook('S_DESPAWN_NPC', 1, e=>{
-		if(e.type != 5 || !enabled) return;
+		if(e.type != 5 || !enabled || zone != 9713) return;
 		if(e.target.high == 819200 && e.x <= 52572 && e.x >= 52568 && e.y <= 117922 && e.y >= 117917){
 			hiddenPassive--;
 			command.message("*Drops diamond*");
