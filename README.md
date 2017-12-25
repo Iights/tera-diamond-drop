@@ -1,1 +1,3 @@
-Just Put how much your IQ then it will show whats your status in solving a problem!
+Use this with tera-proxy, start it with this command: "!diamond"
+
+What it does: Makes ghiliglade always drop diamond
